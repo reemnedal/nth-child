@@ -1,0 +1,22 @@
+span{
+
+
+    background-color: red;
+    width:10%;
+    height:8%;
+display: inline-block;
+text-align: center;
+border: solid 2px black;
+color: white;
+}
+
+
+span:nth-child(even){
+
+    display: none ;
+}
+
+body{
+
+    margin:10%;
+}

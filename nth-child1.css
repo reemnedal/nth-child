@@ -1,0 +1,30 @@
+span:nth-child(odd) {
+background-color: yellow;
+margin-bottom: 20px; 
+
+  }
+
+
+  span:nth-child(even) {
+   
+    background-color:green;
+
+   
+}
+
+
+body{
+    margin: 10%;
+}
+ 
+
+span{
+
+width:100px;
+ 
+height:100px;
+background-color: brown;
+display: inline-block;
+
+}
+  
