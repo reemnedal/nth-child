@@ -1,0 +1,62 @@
+span{
+
+
+    border:solid 2px  black;
+
+    width:3%;
+    height:7%;
+    margin:7px;
+    display: inline-block;
+    background-color: rgb(234, 238, 237);
+}
+
+body{
+
+    margin-left:10%;
+    margin-top:10%;
+}
+
+#selectALlExpectFirstFive{
+span:nth-child(n+6){
+    background-color: orange;
+}
+}
+#selectTheFirstFive{
+
+ span:nth-child(-n+5){
+    background-color: orange;
+
+
+}
+
+
+
+}
+
+
+#selectEveryForth{
+
+    span:nth-child(4n+1){
+       background-color: orange;
+
+
+   }}
+
+
+   #lastFiveItem{
+
+    span:nth-child(n+6){
+
+        background-color: orange;
+    }
+   }
+
+
+   #secondToLast{
+
+span:nth-child(n+2){
+
+    background-color: orange;
+}
+
+   }

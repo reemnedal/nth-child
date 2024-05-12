@@ -2,41 +2,41 @@ span{
 
 
     background-color: red;
-    width:10%;
-    height:10%;
+    width:100px;
+    height:100px;
     display: inline-block;
-  
+
 
 }
 
 
 body{
-    
-    
+
+
     margin:10%;
 
 }
 
 div:nth-child(odd) span:nth-child(-n+3 )   {
 
-   
+
 
 background-color: green;
 
- 
 
-    
+
+
 }
 
 div:nth-child(odd) span:nth-child(n+7 )   {
 
-   
+
 
     background-color: green;
-    
-     
-    
-        
+
+
+
+
     }
 
     div:nth-child(odd) span:nth-child(n+4):nth-child(-n+6){
@@ -47,31 +47,30 @@ background-color: blue;
     }
     div:nth-child(even) span:nth-child(-n+3 )   {
 
-   
+
 
         background-color: blue;
-        
-         
-        
-            
+
+
+
+
         }
-        
+
         div:nth-child(even) span:nth-child(n+7 )   {
-        
-           
-        
+
+
+
             background-color: blue;
-            
-             
-            
-                
+
+
+
+
             }
             div:nth-child(even) span:nth-child(n+4):nth-child(-n+6){
 
                 background-color:green;
-                
-                
+
+
                     }
 
 
-                    
